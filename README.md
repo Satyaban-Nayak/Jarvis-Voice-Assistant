@@ -80,19 +80,31 @@ python jarvis.py
 
 ## 🧠 Project Achievements
 
-✅ Integrated multiple APIs to fetch, process, and present real-time data  
-✅ Designed a modular architecture for easy expansion of commands  
-✅ Implemented rotating logs for performance tracking  
-✅ Combined data analytics, automation, and AI in one smart desktop tool  
+| Category | Achievement |
+|----------|-------------|
+|**Core AI Interaction**|🎤 **Robust Voice Interface**: Implemented a full Speech-to-Text (STT) to Text-to-Speech (TTS) pipeline using `speech_recognition` and `pyttsx3`, enabling seamless, bi-directional voice interaction.|
+|**System & Desktop Control**|💻 **Desktop Automation**: Developed core functions to interact with the local operating system, including launching native Windows applications (`notepad.exe`, `calc.exe`) and playing local music files.|
+|**API & Web Integration**|🌐 **Multi-API Integration**: Successfully integrated and handled requests from four different external APIs (`OpenWeatherMap`, `NewsAPI`, `JokeAPI`, `Quotable.io`) to fetch real-time and dynamic information.|
+|**Modular Design**|🧩 **Extensible Command System**: Utilized a Python dictionary (`self.commands`) to map voice keywords to specific functions, allowing for easy extension and maintenance of new commands ("skills").|
+|**Professional Practices**|🛡️ **Secure Credential Handling**: Implemented `.env` file management using `python-dotenv` to securely load API keys and credentials, preventing hard-coding in the source code.|
+|**Error Handling & Logging**|📝 **Comprehensive Logging**: Integrated the logging module with a Rotating File Handler to record system events, user commands, and errors (including API and speech failures), ensuring robust debugging and performance monitoring.|
+
 
 ---
 
 ## 💡 Future Enhancements
 
-🚀 Add a GUI (Graphical User Interface) using tkinter or PyQt5  
-🗣️ Integrate ChatGPT API for natural conversations  
-🎧 Enable system-wide audio feedback  
-📊 Add analytics dashboard for voice command usage  
+🚀 **Add Graphical User Interface (GUI)** —  
+Integrate a simple GUI using **Tkinter** or **PyQt5** to control Jarvis visually, view logs, and trigger voice commands easily. 
+
+🎤 **Add Custom Wake Word Detection** —   
+Implement a wake phrase like **“Hey Jarvis”** to start listening automatically instead of continuous listening. 
+
+💌 **Add Smart Email Contact Book** —  
+Save and manage frequently used email contacts in a **JSON or CSV file**, so Jarvis can send mails by name (e.g., “Send email to Riya”). 
+
+🌦️ **Add Dynamic City Detection for Weather** —  
+Use **geolocation APIs** to automatically detect the user's city for weather updates without mentioning it manually.
 
 ---
 
