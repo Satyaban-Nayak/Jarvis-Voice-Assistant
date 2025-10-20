@@ -111,7 +111,13 @@ Use **geolocation APIs** to automatically detect the user's city for weather upd
 ## 🧑‍💻 Author
 
 Satyaban Nayak  
-🎓 MCA Student | 💡 Data Analytics & Python Enthusiast
+🎓 MCA Student | 💡 Data Analytics & Python Enthusiast  
+
+| Platform | Link |
+| --- | --- |
+| **GitHub** | https://github.com/Satyaban-Nayak |
+| **LinkedIn** | www.linkedin.com/in/satyaban-nayak-06bb65374 |
+| **Email** | satyabannayak78@gmail.com |
 
 
 
